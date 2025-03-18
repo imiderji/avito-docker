@@ -66,3 +66,29 @@ Open [grafana](http://localhost:3000/d/_eX4mpl3) in your browser.
 
 ### Step 6.
 Make a docker-compose file.
+
+### HW part
+
+To start containers use
+
+```bash
+docker-compose up --build -d
+```
+
+To stop containers and delete networks use
+
+```bash
+docker-compose down -v
+```
+
+You are also able to connect the URLs presented in this task
+
+```
+curl http://127.0.0.1:8080/books
+```
+```
+curl http://127.0.0.1:8080/authors
+```
+```
+curl http://127.0.0.1:8080/metrics
+```
